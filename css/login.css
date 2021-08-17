@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  height: 10vh;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-frame {
+  position: relative;
+  width: 496px;
+  height: 378px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid #c9c9c9 2px;
+  padding-bottom: 32px;
+}
+
+.login-subframe-one {
+  display: flex;
+  justify-content: center;
+  flex-grow: 3;
+}
+
+.login-subframe-two {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-text {
+  display: flex;
+  font-family: "Roboto Light", sans-serif;
+  font-size: x-large;
+  color: #828282;
+}
+
+.login-button {
+  font-family: "Roboto Light", sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 342px;
+  height: 46px;
+  color: #ffffff;
+  background-color: #6fcf97;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background: #c4c4c4;
+  border-radius: 50%;
+  font-family: "Roboto Light", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 124px;
+  top: -125px;
+}
+
+/*# sourceMappingURL=login.css.map */
