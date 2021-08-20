@@ -94,84 +94,66 @@ body {
   grid-area: footer;
 }
 
-.login-form {
+.register-frame {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  flex-grow: 1;
-}
-
-.login-frame {
-  position: relative;
-  width: 496px;
-  height: 378px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  border: solid #c9c9c9 2px;
-  padding-bottom: 32px;
-  background: #fcfcfc;
-}
-
-.login-subframe-one {
-  display: flex;
-  justify-content: center;
-  flex-grow: 4;
-}
-
-.login-subframe-two {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.login-text {
-  display: flex;
+  width: 940px;
+  height: 470px;
   font-family: "Roboto Light", sans-serif;
-  font-size: x-large;
+  background: white;
   color: #828282;
 }
 
-.login-button {
+.register-frame-header {
   font-family: "Roboto Light", sans-serif;
-  font-weight: bold;
   font-size: x-large;
+  padding: 22px;
+  color: white;
+  background: #bdbdbd;
+}
+
+.register-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  padding-inline: 42px;
+  padding-block: 22px;
+}
+
+.register-form-item {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 342px;
+  flex-direction: column;
+}
+.register-form-item label {
+  padding-bottom: 10px;
+}
+.register-form-item input {
   height: 46px;
+}
+
+.register-form-button {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding-top: 22px;
+}
+.register-form-button input {
+  font-family: "Roboto Light", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  height: 46px;
+}
+
+#cancel {
+  border: 1px solid #bdbdbd;
+  background: white;
+  color: #828282;
+}
+
+#sign-up {
+  border-style: none;
   color: #ffffff;
   background-color: #6fcf97;
-  border-style: none;
 }
 
-.login-input {
-  font-family: "Roboto Light", sans-serif;
-  font-size: x-large;
-  text-align: center;
-  width: 342px;
-  height: 46px;
-  color: #828282;
-  padding: 0;
-}
-
-.circle {
-  width: 180px;
-  height: 180px;
-  background: #c4c4c4;
-  border-radius: 50%;
-  font-family: "Roboto Light", sans-serif;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: xxx-large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: -90px;
-}
-
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=register.css.map */
